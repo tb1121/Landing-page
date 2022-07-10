@@ -1,67 +1,98 @@
 
-*/* {
-    border: .5px solid red;
+/* {
+    border: .5px solid green;
 }*/
+
 
 .body {
     background-color: #1f2937;
-    font-family: roboto;
 }
 
-.upper-section{
-    margin-left: 60px;
-    margin-right: 60px;
-    padding-right: 0;
-    padding-left: 0;
+
+h1, p{
+    color: black;
 }
 
 h1 {
     text-align: center;
+   
 }
 
 .header {
+    margin-left: 60px;
+    margin-right: 60px;
     display: flex;
     justify-content: space-between;
-    padding: 0;
-    margin: 0;
     background-color: #1f2937;
+    margin-bottom: 50px;
 }
 
 .subheader {
+    margin-left: 60px;
+    margin-right: 60px;
     display: flex;
     justify-content: space-between;
     background-color: #1f2937;
     margin-top: 50px;
-    margin-bottom: 20px;
-    
+    margin-bottom: 50px;
 }
 
-h1, p{
+
+.left-text {
+    text-align: left;
     color: white;
 }
 
-button {
+
+.btn-blue {
     color: white;   
     background-color: rgb(61, 99, 220);
+    border-radius: 4px;
+    padding: 6px 20px;
+    font-size: 15px;
+    border: none;
+}
+
+
+.flexbox-item {
+    border: 3px solid rgb(61, 99, 220);
+    height: 150px;
+    width: 150px;
+    margin: 2.5px;
+    border-radius: 15px
+}
+
+.text-item {
+    border: 3px solid white;
+    height: 100px;
+    width: 150px;
+    margin: 2.5px;
+    border-radius: 15px 
+}
+
+.cards {
+    display: flex;
+    gap: 35px;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    display: flex;
+    gap: 35px;
+    justify-content: center;
+    text-align: center;
+
 }
 
 img {
     padding: 20px 0px 20px 20px;
+    width: 400px;
 }
 
 .split1 {
     max-width: 500px;
 }
-
-
-
-.cards{
-    display: flex;
-   
-
-}
-
-
 
 ul {
     list-style: none;
@@ -69,9 +100,21 @@ ul {
     margin: 0;
 }
 
-
 a {
     text-decoration: none;
+    
+}
+
+.right a{
+    color: lightgray;
+}
+
+.lower-section a {
+    color: white;
+}
+
+
+.left-logo a {
     color: white;
 }
 
@@ -79,9 +122,6 @@ a {
     display: flex;
     font-size: 20px;
     font-weight: 600;
-    padding: 10px;
-    font-family: 
-    
 }
 
 .right {
@@ -89,5 +129,100 @@ a {
     padding: 0;
     margin: 0;
     align-items: center;
+    color: lightgray;
     gap: 20px;
 }
+
+.black-text {
+    color: black;
+    font-size: 30px;
+    padding: 20px;
+}
+
+.white-text {
+    color: white;
+    padding-bottom: 10px;
+}
+
+.mid-section {
+    background-color: white;
+    color: black;
+    padding-bottom: 50px;
+}
+
+.mid-lower-section {
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 100px;
+    gap: 10px;
+}
+
+.top-section {
+    padding: 10px 50px 30px 50px;
+}
+
+.light-gray{
+    color: lightgray;
+}
+
+.quote {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.quote-name {
+    display: flex;
+    justify-self: self-end;
+    font-size: 20px;
+}
+
+.cards-and-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.lower-section {
+    display: flex;
+    background-color: rgb(61, 99, 220); 
+    margin: 100px;
+    padding: 50px;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.btn-lower {  
+    background-color: none;
+    border-radius: 4px;
+    padding: 6px 20px;
+    font-size: 15px;
+    border: 1px solid white;
+   
+}
+
+.action {
+    color: white;
+    font-size: 25px;
+}
+
+.time {
+    color: white;
+    font-size: 15px;
+}
+
+.footer {
+    padding: 35px;
+    text-align: center;
+    background-color: #1f2937;
+    color: white;
+}
+
+.split-text {
+    color: lightgray;
+    padding-bottom: 25px;
+}
+
